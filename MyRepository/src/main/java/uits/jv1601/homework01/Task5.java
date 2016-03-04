@@ -25,40 +25,40 @@ public class Task5 {
         
         int answer;
         while(true){
-            System.out.println("Нажмите: ");
-            System.out.println("1)посчитать обьем цилиндра ");
-            System.out.println("2)обьем полного цилиндра");
-            System.out.println("3)площадь боковой поверхности цилиндра");
+            System.out.println("Click: ");
+            System.out.println("1)calculate the volume of a cylinder ");
+            System.out.println("2)volume of the hollow cylinder");
+            System.out.println("3)area of the lateral surface of the cylinder");
             
             answer=sc.nextInt();
             switch(answer){
                 case 1:
-                    System.out.println("Введите значение радиуса:");
+                    System.out.println("Enter the radius:");
                     r=sc.nextFloat();
-                    System.out.println("Введите значение высоты:");
+                    System.out.println("Enter the height:");
                     H=sc.nextFloat();
                     V=p*r*r*H;
-                    System.out.println("Обьем: "+ V );
+                    System.out.println("Volume: "+ V );
                     break;
                 case 2:
-                    System.out.println("Введите значение меньшего радиуса:");
+                    System.out.println("Enter the smaller radius:");
                     r=sc.nextFloat();
-                    System.out.println("Введите значение большего радиуса:");
+                    System.out.println("Enter a larger radius:");
                     R=sc.nextFloat();
-                    System.out.println("Введите значение высоты:");
+                    System.out.println("Enter the height:");
                     H=sc.nextFloat();
                     V=p*H*(R-r);
-                    System.out.println("Обьем полного цилиндра: " + V);
+                    System.out.println("The volume of the hollow cylinder: " + V);
                     break;
                 case 3:
-                    System.out.println("Введите значение меньшего  радиуса:");
+                    System.out.println("Enter the smaller radius:");
                     r=sc.nextFloat();
-                    System.out.println("Введите значение большего радиуса:");
+                    System.out.println("Enter a value greater radius:");
                     R=sc.nextFloat();
-                    System.out.println("Введите значение высоты:");
+                    System.out.println("Enter the height:");
                     H=sc.nextFloat();
                     S=2*p*H*(R+r);
-                    System.out.println("Площадь: " + S );
+                    System.out.println("Area: " + S );
                     break;
                     
             }

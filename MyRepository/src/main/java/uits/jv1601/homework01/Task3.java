@@ -13,16 +13,16 @@ import java.util.Scanner;
  */
 public class Task3 {
      public static void main(String[] args) {
-        String first="Работа не волк";
-        String second="pабота-\"work\"";
-        String third="в лес не убежит";
+        String first="Work is not a wolf";
+        String second="Jobs -  \"work \"";
+        String third="the forest will not escape";
         Scanner sc=new Scanner (System.in);
         int a;
         while(true){
-            System.out.println("Нажмите для вывода:");
-            System.out.println("1)каждую переменную в отдельной строке");
-            System.out.println("2)все переменные в одной строке");
-            System.out.println("3)строки,вида\"Работа не волк,в лес не убежит\"");
+            System.out.println("Click to display:");
+            System.out.println("1)each variable on a separate line");
+            System.out.println("2)all variables in a single line");
+            System.out.println("3)line, type  \"Work is not a wolf in the forest will not escape \"");
            a=sc.nextInt();
         switch(a){
             case 1:

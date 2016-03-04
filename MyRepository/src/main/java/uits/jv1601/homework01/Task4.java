@@ -25,32 +25,32 @@ public class Task4 {
         
         int answer;
         while(true){
-            System.out.println("Нажмите: ");
-            System.out.println("1)посчитать длину окружности ");
-            System.out.println("2)площадь окружности");
-            System.out.println("3)площадь кольца");
+            System.out.println("Click: ");
+            System.out.println("1)Calculate the circumference ");
+            System.out.println("2)circle area");
+            System.out.println("3)area of a circle ring area");
             
             answer=sc.nextInt();
             switch(answer){
                 case 1:
-                    System.out.println("Введите значения диаметра:");
+                    System.out.println("Enter diameter values:");
                     d=sc.nextFloat();
                     L=p*d;
-                    System.out.println("Длина: " +L);
+                    System.out.println("Lenght: " +L);
                     break;
                 case 2:
-                    System.out.println("Введите значения радиуса:");
+                    System.out.println("Enter the radius:");
                     r=sc.nextFloat();
                     S=r*p*p;
-                    System.out.println("Площадь: "+S);
+                    System.out.println("Area: "+S);
                     break;
                 case 3:
-                    System.out.println("Введите значение меньшего радиуса:");
+                    System.out.println("Enter the smaller radius:");
                     r=sc.nextFloat();
-                    System.out.println("Введите значение большего радиуса:");
+                    System.out.println("Enter a value greater radius:");
                     R=sc.nextInt();
                     S=p*(R*R-r*r);
-                    System.out.println("Площадь: " + S);
+                    System.out.println("Area: " + S);
                     break;
                     
             }

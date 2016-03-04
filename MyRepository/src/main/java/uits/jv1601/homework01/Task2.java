@@ -11,9 +11,9 @@ package uits.jv1601.homework01;
  */
 public class Task2 {
     public static void main(String[] args) {
-        String s="\tСоздайте в программе текстовую переменную String\n"+
-                 "\tс произвольным текстом размещенную на нескольких строках кода\n"+
-                 "\tВывести текст в консоль.";
+        String s="\tCreate a text variable in the program String\n"+
+                 "\tfree text posted on a few lines of code\n"+
+                 "\tDisplay text in the console.";
         System.out.print(s);
     }
 }
