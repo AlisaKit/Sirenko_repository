@@ -39,7 +39,7 @@ public class Cone {
 
     @Override
     public String toString() {
-        return  "radius=" + radius + "\n"+ "height=" + height +"\n"+"Volume " +VolumeCone(radius, height) ;
+        return  "radius=" + radius + "\n"+ " height=" + height +"\n"+"  volume " +VolumeCone(radius, height) ;
     }
     public double VolumeCone(int a,int b){
        return (Math.PI*a*a*b)/3;

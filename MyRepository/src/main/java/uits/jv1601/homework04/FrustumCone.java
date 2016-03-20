@@ -48,7 +48,7 @@ public class FrustumCone {
 
     @Override
     public String toString() {
-        return  "height=" + height + "\n"+ "RadiusBig=" + RadiusBig + "\n"+" radiusSmall=" + radiusSmall +"\n"+"volume" + VolumeFrustum(height, RadiusBig,radiusSmall) ;
+        return  "height=" + height + "\n"+ " radiusBig=" + RadiusBig + "\n"+"  radiusSmall=" + radiusSmall +"\n"+"   volume" + VolumeFrustum(height, RadiusBig,radiusSmall) ;
     }
     public double VolumeFrustum(int h,int R,int r){
      return (Math.PI*h*(R*R+R*r+r*r)/3);

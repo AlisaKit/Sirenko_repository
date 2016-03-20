@@ -16,6 +16,7 @@ public class Parallelepiped {
     private int leng;
     
     Parallelepiped(){}
+   
 
     public Parallelepiped(int height, int width, int leng) {
         this.height = height;
@@ -44,11 +45,13 @@ public class Parallelepiped {
 
     @Override
     public String  toString() {
-   return "Parallelepiped: " +"\n"+ "height=" + height + "\n"+" width=" + width + "\n"+" leng=" + leng+"\n"+"volume=" +Volume(height, width, leng)+"\n";
+   return "height=" + height + "\n"+" width=" + width + "\n"+"  leng=" + leng+"\n"+"   volume=" +Volume(height, width, leng)+"\n";
     }
      public int Volume(int a,int b,int c){
         return a*b*c;
      }
+     
+     
       
       
     

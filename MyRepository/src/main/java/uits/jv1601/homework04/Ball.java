@@ -5,11 +5,14 @@
  */
 package uits.jv1601.homework04;
 
+
+
 /**
  *
  * @author Admin
  */
 public class Ball {
+    
     private int diametr;
     
     public Ball(){}
@@ -34,5 +37,5 @@ public class Ball {
     public double VolumeBall(int d){
      return (3*Math.PI*d*d*d)/4;
     }
-    
+   
 }
