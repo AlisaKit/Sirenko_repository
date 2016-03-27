@@ -63,8 +63,8 @@ public class Test {
                    System.out.println("Error");
                }
     }
+  }
 }
-    }
     public static void randomParallelepiped(){
           System.out.println("Parallelepiped: ");
           par=new Parallelepiped(Math.abs(rand.nextInt()%20+1),Math.abs(rand.nextInt()%20+1),Math.abs(rand.nextInt()%20+1));
@@ -88,25 +88,25 @@ public class Test {
       
       
       public static void eigenvaluesParallelepiped(){
-          System.out.println("Parallelepiped: ");
+          System.out.println("Parallelepiped ");
           System.out.println("Enter height,width and leng: ");
           par=new Parallelepiped(sc.nextInt(),sc.nextInt(),sc.nextInt());
           System.out.println(par);
     }
       public static void eigenvaluesBall(){
-          System.out.println("Ball: ");
+          System.out.println("Ball ");
           System.out.println("Enter diametr: ");
           ball=new Ball(sc.nextInt());
           System.out.println(ball);
     }
       public static void eigenvaluesCone(){
           System.out.println("Cone: ");
-          System.out.println("Enter radius, height: ");
+          System.out.println("Ente radius, height: ");
           con =new Cone(sc.nextInt(),sc.nextInt());
           System.out.println(con);
     }
       public static void eigenvaluesFrustumCone(){
-          System.out.println("FrustumCone: ");
+          System.out.println("FrustumCone ");
           System.out.println("Enter height,radiusBig and radiusSmall: ");
           fruc=new FrustumCone(sc.nextInt(),sc.nextInt(),sc.nextInt());
           System.out.println(fruc);
